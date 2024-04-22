@@ -1,0 +1,156 @@
+*{margin: 0;
+padding: 0;}
+
+
+#navbar{
+	display: flex;
+	align-items: center;
+}
+
+#navbar::before{
+	content: "";
+background-color: black;
+height: 35%;
+position: absolute;
+width: 97%;
+z-index: -1;
+opacity: 0.7;
+top: 0;
+left: 0;
+}
+
+
+#logo{
+margin: -30px -10px;
+padding: 0px 15px;}
+
+#logo img{
+margin: 0px 0px;
+height: 200px;
+} 
+
+#navbar{
+	position: relative;
+}
+
+#navbar ul{
+	display: flex;
+}
+
+#navbar ul li{
+	list-style: none;
+	font-size: 20px;
+    
+}
+
+#navbar ul li a{
+	padding: 10px 10px;
+	color: whitesmoke;
+	text-decoration: none;
+	display: block;
+    border-radius: 20px;
+}
+
+#navbar ul li a:hover{
+	padding: 10px 10px;
+	color: black;
+	text-decoration: none;
+	display: block;
+	background-color: whitesmoke;
+
+}
+
+#home{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 5px 250px;
+	flex-direction: column;
+	color: whitesmoke;
+	height: 19vh;
+}
+
+#home::before{
+	content: "";
+background-image: url('background1.jpeg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+position: absolute;
+width: 100%;
+z-index: -1;
+opacity: 1;
+top: 0;
+left: 0;
+}
+
+.heading{ 
+font-size: 35px;
+padding: 10px;
+display: flex;
+justify-content: center;
+align-items: center; }
+
+
+
+#home h1{
+	color: whitesmoke;
+	text-align: center;
+}
+
+#home p{
+	color: whitesmoke;
+	text-align: center;
+}
+
+.btn{
+	margin: 25px;
+	padding: 10px 40px;
+	border-radius: 10px;
+	border: 2px solid black;
+}
+
+#services{
+	margin: 50px ;
+	display: flex;
+}
+
+#services .box{
+	border: 2px solid black;
+	padding: 20px;
+	margin: 3px 6px;
+	border-radius: 23px;
+	background-color: #cecbcb;
+}
+
+#services .box img{
+	height: 100px;
+	display: block;
+	margin: auto;
+}
+
+.center{
+	align-items: center;
+}
+
+.sec-heading{
+font-size: 35px;
+padding: 50px; 
+
+}
+
+#clientsec{
+
+}
+
+#clients{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.clientsec h1 .preheading{
+	display: flex;
+justify-content: center;
+align-items: baseline;
+}
